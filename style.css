@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #F3F1FF;
+}
+section{
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+
+.brand-color{
+    color: orange;
+}
+.heading h2{
+    font-size: 3em;
+    color: #746a6a;
+    margin-bottom: 20px;
+}
+.heading .btn{
+    color: white;
+    background-color: rgba(251, 56, 22, 0.952);
+    font-size: 1.2em;
+    border-radius: 30px;
+    margin-top: 18px;
+    border: none;
+    padding: 10px;
+}
+.half-width{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.half-width .heading-image img{
+    width: 100%;
+}
+.section-title {
+    width: 50%;
+    text-align: center;
+}
+/* .section-title p{
+    width: 50vw;
+    text-align: center;
+    display: inline-block;
+    margin-top: 8px;
+
+} */
+.section-title p{
+    font-size: 0.9em;
+    margin-top: 15px;
+}
+
+/* menu items */
+
+.container > h1{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 8px;
+
+}
+.container> p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.menu-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(330px, 1fr));
+    justify-items: center;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center ;
+}
+.item{
+    width: 330px;
+    height: auto;
+    margin-top: 20px;
+    padding: 7px;
+    box-shadow: 6px -5px 20px grey;
+    border-radius: 5px;
+}
+.item img{
+    width: 100%;
+    margin: 0 auto;
+}
+.item h3, p{
+    text-align: center;
+}
+
+/* cheifs style */
+.recipi-section-banner{
+    background: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center ;
+}
+.cheif-list{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(1fr,1fr);
+    grid-row-gap:20px;
+    justify-items: center;
+    justify-content: center;
+}
+.cheif{
+    display: flex;
+    align-items: center;
+    
+}
+.cheif-name{
+    margin-left: 16px;
+}
+.cheif img{
+    width: 200px;
+    height: 200px;
+}
+.banner-img{
+    background: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center ;
+}
